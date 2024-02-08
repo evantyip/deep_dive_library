@@ -1,0 +1,13 @@
+package library 
+
+import (
+  "github.com/evantyip/deep_dive_library/internal/view/layout"
+  "github.com/evantyip/deep_dive_library/internal/view/component"
+)
+
+templ Show() {
+  @layout.Base() {
+    <h1>Welcome to deep dive library</h1>
+    @component.DeepDiveList()
+  }
+}
